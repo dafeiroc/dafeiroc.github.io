@@ -126,21 +126,21 @@ Ne verba patulosque numen vix libet Agitabitur signa lympha; non lacunae, mox cu
     </item>
     
     <item>
-      <title>About</title>
-      <link>https://daikonhouse.co.jp/about/</link>
-      <pubDate>Tue, 12 Oct 2021 17:01:34 +0700</pubDate>
-      
-      <guid>https://daikonhouse.co.jp/about/</guid>
-      <description>準備中</description>
-    </item>
-    
-    <item>
-      <title>Contact</title>
+      <title></title>
       <link>https://daikonhouse.co.jp/contact/</link>
       <pubDate>Tue, 12 Oct 2021 17:01:34 +0700</pubDate>
       
       <guid>https://daikonhouse.co.jp/contact/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>会社概要</title>
+      <link>https://daikonhouse.co.jp/about/</link>
+      <pubDate>Tue, 12 Oct 2021 17:01:34 +0700</pubDate>
+      
+      <guid>https://daikonhouse.co.jp/about/</guid>
+      <description>         社名 大根株式会社   本社所在地 東京都世田谷区太子堂3-9-3   会社設立日 2021年7月28日   主たる業務 不動産にかかるアセットマネジメント事業、EC通販企業支援、オリジナル商品開発及びECサイト販売、WEBコンサルティン    </description>
     </item>
     
   </channel>
