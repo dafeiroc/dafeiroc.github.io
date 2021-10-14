@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Services on 大根ハウス</title>
+    <title>Services on 大根株式会社</title>
     <link>https://daikonhouse.co.jp/services/</link>
-    <description>Recent content in Services on 大根ハウス</description>
+    <description>Recent content in Services on 大根株式会社</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>ja-jp</language>
     <lastBuildDate>Wed, 28 Nov 2018 15:15:34 +1000</lastBuildDate><atom:link href="https://daikonhouse.co.jp/services/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Accounting</title>
