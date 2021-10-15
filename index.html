@@ -101,7 +101,7 @@
     <div class="row justify-content-start">
       <div class="col-12 col-md-7 col-lg-6 order-2 order-md-1">
         <h1 id="ようこそ">ようこそ</h1>
-<p>大根株式会社は、2021年7月に総合不動産会社として開業いたしました。当社のメンバーがこれまでに培った不動産投資、不動産運営、アセットマネジメント等に関する豊富な知識・経験等を活かし、不動産の自己投資、仲介、コンサルティング業、EC通販企業支援、オリジナル商品開発及びECサイト販売、WEBコンサルティン等を専門的に取り扱っております。</p>
+<p>大根株式会社は、2021年7月に総合不動産会社として開業いたしました。当社のメンバーがこれまでに培った不動産投資、不動産運営、アセットマネジメント等に関する豊富な知識・経験等を活かし、不動産の自己投資、仲介、コンサルティング業、EC通販企業支援、オリジナル商品開発及びECサイト販売、WEBコンサルティング等を専門的に取り扱っております。</p>
 
         
       </div>
@@ -126,7 +126,7 @@
           
           <div class="feature-image"><img width="100" height="100" alt=" logo" src="/images/features/noun_branding_1885335.svg" /></div>
           
-          <h2 class="feature-title">不動産にかかる仲介業</h2>
+          <h2 class="feature-title">不動産にかかる仲介・コンサルティング事業</h2>
           <div class="feature-content">
             <p></p>
           </div>
@@ -202,10 +202,20 @@
 
 
   <style>
-    #cookie-notice {font-size: larger; padding: 0.5rem 1rem; display: none;
-text-align: center; position: fixed; bottom: 0; left: 20px; padding-top: 40px;
-padding-bottom: 40px; width: 100%; background: rgb(70, 70, 70);
-color: rgba(255,255,255,0.8);}
+    #cookie-notice {
+        font-size: larger; 
+        padding: 0.5rem 1rem; 
+        display: none;
+        text-align: center; 
+        position: fixed; 
+        bottom: 0; 
+        left: 20px; 
+        padding-top: 40px;
+        padding-bottom: 40px; 
+        width: 100%; 
+        background: rgba(70, 70, 70, 0.9);
+        color: rgba(255,255,255,0.8);
+    }
 
 #cookie-notice a {font-weight: 600; display: inline-flex; cursor: pointer; margin-left: 0.5rem;}
 #cookie-notice-accept {color:rgb(86, 228, 58)}
@@ -223,6 +233,39 @@ color: rgba(255,255,255,0.8);}
 <a id="cookie-notice-deny" class="btn btn-primary btn-sm">拒否</a>
 <a href="/privacy" class="btn btn-primary btn-sm">もっと...</a></div>
 <script>
+    
+    function fadeOut(el, ms) {
+        if (ms) {
+            el.style.transition = `opacity ${ms} ms`;
+            el.addEventListener(
+                'transitionend',
+                function (event) {
+                    el.style.display = 'none';
+                },
+                false
+            );
+        }
+        el.style.opacity = '0';
+    }
+
+    
+    function fadeIn(elem, ms) {
+        elem.style.opacity = 0;
+
+        if (ms) {
+            let opacity = 0;
+            const timer = setInterval(function () {
+                opacity += 50 / ms;
+                if (opacity >= 1) {
+                    clearInterval(timer);
+                    opacity = 1;
+                }
+                elem.style.opacity = opacity;
+            }, 50);
+        } else {
+            elem.style.opacity = 1;
+        }
+    }
     function createCookie(name,value,days) {
         var expires = "";
         if (days) {
@@ -272,17 +315,18 @@ color: rgba(255,255,255,0.8);}
         
     } else if (readCookie('cookie-notice-option')!='false'){
         document.getElementById('cookie-notice').style.display = 'block';
+        fadeIn(document.getElementById('cookie-notice'), 2000);
     }
 
     document.getElementById('cookie-notice-accept').addEventListener("click",function() {
         createCookie('cookie-notice-option','true',31);
-        document.getElementById('cookie-notice').style.display = 'none';
+         document.getElementById('cookie-notice').style.display = 'none';
         location.reload();
     });
 
     document.getElementById('cookie-notice-deny').addEventListener("click",function() {
         createCookie('cookie-notice-option','false',31);
-        document.getElementById('cookie-notice').style.display = 'none';
+         document.getElementById('cookie-notice').style.display = 'none';
         location.reload();
     });
 
