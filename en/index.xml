@@ -6,21 +6,21 @@
     <description>Recent content in Homepage on Daikon Co., Ltd.</description>
     <generator>Hugo -- gohugo.io</generator><atom:link href="https://daikonhouse.co.jp/en/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title></title>
-      <link>https://daikonhouse.co.jp/en/contact/</link>
-      <pubDate>Tue, 12 Oct 2021 17:01:34 +0700</pubDate>
-      
-      <guid>https://daikonhouse.co.jp/en/contact/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>About</title>
       <link>https://daikonhouse.co.jp/en/about/</link>
       <pubDate>Tue, 12 Oct 2021 17:01:34 +0700</pubDate>
       
       <guid>https://daikonhouse.co.jp/en/about/</guid>
       <description>         Company Name Daikon Co., Ltd.   Head Office Taishido 3-9-3, Setagaya, Tokyo   Established on 2021/7/28   Business Property Asset Management, Product Development and EC Business, Web System Consulting    </description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>https://daikonhouse.co.jp/en/contact/</link>
+      <pubDate>Tue, 12 Oct 2021 17:01:34 +0700</pubDate>
+      
+      <guid>https://daikonhouse.co.jp/en/contact/</guid>
+      <description></description>
     </item>
     
     <item>
