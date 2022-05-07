@@ -1,2 +1,37 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Homepage on Daikon Co., Ltd.</title><link>https://daikonhouse.co.jp/en/</link><description>Recent content in Homepage on Daikon Co., Ltd.</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://daikonhouse.co.jp/en/index.xml" rel="self" type="application/rss+xml"/><item><title>About</title><link>https://daikonhouse.co.jp/en/about/</link><pubDate>Tue, 12 Oct 2021 17:01:34 +0700</pubDate><guid>https://daikonhouse.co.jp/en/about/</guid><description> Company Name Daikon Co., Ltd. Head Office Taishido 3-9-3, Setagaya, Tokyo Established on 2021/7/28 Business Property Asset Management, Product Development and EC Business, Web System Consulting</description></item><item><title>Contact</title><link>https://daikonhouse.co.jp/en/contact/</link><pubDate>Tue, 12 Oct 2021 17:01:34 +0700</pubDate><guid>https://daikonhouse.co.jp/en/contact/</guid><description/></item><item><title>Privacy Policy</title><link>https://daikonhouse.co.jp/en/privacy/</link><pubDate>Tue, 12 Oct 2021 17:01:34 +0700</pubDate><guid>https://daikonhouse.co.jp/en/privacy/</guid><description>Daikon Home &amp;ldquo;the site&amp;rdquo; is using Google&amp;rsquo;s analysis tool &amp;ldquo;Google Analytics&amp;rdquo;. Google Analytics uses cookies to collect data. The collected data is anonymous and is not identifiable.
-This function will not work if Cookie is disabled. Please check your browser setting. Please see more details on Google Analytics Terms of Service Page.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Homepage on Daikon Co., Ltd.</title>
+    <link>https://daikonhouse.co.jp/en/</link>
+    <description>Recent content in Homepage on Daikon Co., Ltd.</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://daikonhouse.co.jp/en/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>https://daikonhouse.co.jp/en/about/</link>
+      <pubDate>Tue, 12 Oct 2021 17:01:34 +0700</pubDate>
+      
+      <guid>https://daikonhouse.co.jp/en/about/</guid>
+      <description>         Company Name Daikon Co., Ltd.   Head Office Taishido 3-9-3, Setagaya, Tokyo   Established on 2021/7/28   Business Property Asset Management, Product Development and EC Business, Web System Consulting    </description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>https://daikonhouse.co.jp/en/contact/</link>
+      <pubDate>Tue, 12 Oct 2021 17:01:34 +0700</pubDate>
+      
+      <guid>https://daikonhouse.co.jp/en/contact/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Privacy Policy</title>
+      <link>https://daikonhouse.co.jp/en/privacy/</link>
+      <pubDate>Tue, 12 Oct 2021 17:01:34 +0700</pubDate>
+      
+      <guid>https://daikonhouse.co.jp/en/privacy/</guid>
+      <description>Daikon Home &amp;ldquo;the site&amp;rdquo; is using Google&amp;rsquo;s analysis tool &amp;ldquo;Google Analytics&amp;rdquo;. Google Analytics uses cookies to collect data. The collected data is anonymous and is not identifiable.
+This function will not work if Cookie is disabled. Please check your browser setting. Please see more details on Google Analytics Terms of Service Page.</description>
+    </item>
+    
+  </channel>
+</rss>
